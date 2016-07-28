@@ -12,4 +12,4 @@ No sql scripts are provided -- just place them in /src/main/resources and run Si
 Parsed results will be placed in an output folder, along with some useful info on the console. 
 
 For maximum win, hook up kibana to explore the generated index: 
-```brew search kibana```
+```brew install kibana```
