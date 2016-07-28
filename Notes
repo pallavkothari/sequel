@@ -1,0 +1,12 @@
+Pseudocode that ought to be implemented in the selectExpression visitor hook.
+
+For each selectExpressionItem, do:
+    Feed gson document into elasticsearch, containing (for now):
+        - filename
+        - node's text contents
+            - expression
+            - alias
+        - node's type (selectExpressionItem)
+
+- A way of feeding json documents into local elasticsearch
+- A way of searching!
